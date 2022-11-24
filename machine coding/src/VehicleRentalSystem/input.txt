@@ -1,0 +1,27 @@
+addBranch VV
+addBranch CP
+addVehicle 1 SEDAN VV
+addVehicle 2 SUV VV
+addVehicle 3 HATCHBACK VV
+addVehicle 4 SEDAN VV
+addVehicle 5 SUV VV
+addVehicle 6 HATCHBACK VV
+addVehicle 7 SEDAN VV
+addVehicle 8 SUV VV
+addVehicle 9 HATCHBACK VV
+addVehicle 10 SEDAN CP
+addVehicle 11 SUV CP
+addVehicle 12 SEDAN CP
+allocatePrice SEDAN VV 100
+allocatePrice SUV VV 200
+allocatePrice HATCHBACK VV 300
+allocatePrice SEDAN CP 50
+allocatePrice SUV CP 100
+allocatePrice HATCHBACK CP 180
+bookVehicle SEDAN 3 4
+bookVehicle SEDAN 3 4
+bookVehicle SEDAN 3 4
+bookVehicle SEDAN 3 4
+bookVehicle SEDAN 3 4
+bookVehicle SEDAN 3 4
+exit
